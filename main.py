@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Warning Label for Humans: One Line, Big Laugh.
 
-Writes the single-line safety warning label for human beings to /output/entry.txt.
+Writes one line to /output/entry.txt.
 Gate: UTF-8 text, 1..160 chars, not only whitespace.
+Revision: label tightened to land the turn in the last words (138 chars).
 """
 from pathlib import Path
 
